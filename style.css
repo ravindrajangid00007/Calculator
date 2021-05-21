@@ -1,0 +1,70 @@
+#calculator{
+    border: 5px solid gray ;
+    height: 400px ;
+    width: 500px ;
+    margin: auto;
+    box-sizing: border-box;
+}
+.header{
+    width: 480px;
+    height: 70px ;
+    border: 5px solid gray;
+    text-align: center;
+
+
+}
+
+.input-box{
+    border:5px solid gray;
+    width: 480px ;
+    height: 70px;
+}
+
+.super{
+    height: auto;
+    width: 100%;
+    display: flex ;
+}
+.buttons{
+    border: 5px solid gray;
+    width: 350px;
+    height: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.arithmatic-op{
+    border: 5px 5px 5px 0px ;
+    border-color: gray;
+    border-style: solid;
+    height: 224px;
+    width: 125px ;
+    display: flex ;
+    flex-direction:  column;
+}
+
+.white{
+    border: 1px solid gray;
+    width: 112px;
+    height: 40px;
+    margin: 1px;
+    box-sizing: border-box;
+    color: black;
+
+}
+
+.red{
+    border: 1px solid gray;
+    width: 123px;
+    height: 42px;
+    margin: 1px;
+    box-sizing: border-box;
+    background-color: rgb(155, 82, 82);
+    color: white;
+}
+
+#display{
+    text-align: right;
+}
+
+
